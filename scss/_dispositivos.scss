@@ -1,0 +1,32 @@
+/* TABLET */
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+    h1{ 
+        font-size: 2rem;
+        background-color: orange;
+    }
+
+    body {
+         height: 100vh;
+         font-size: 2rem;
+        }
+    
+    footer{
+        font-size: 1rem;
+       }
+    h3{
+        font-size: 1rem;
+       }
+    }
+
+/* SMARTPHONE */
+@media  screen and (max-width: 480px) {
+
+    body{
+        height: 100vh;
+        font-size: 1rem;
+       }
+    h3 {
+        font-size: 1rem;
+       }
+       }
+

@@ -1,0 +1,74 @@
+body {
+  font-family: "aller_lightregular", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: #ACADAF;
+  background-color: ghostwhite;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "aller_lightregular", Arial, Helvetica, sans-serif;
+  color: #54301A;
+  font-size: 30px;
+}
+
+h2 {
+  color: #B3935D;
+  font-family: "aller_lightregular", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.cartaFlex {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  flex-direction: row;
+}
+
+.imgFlex {
+  display: flex;
+  margin-bottom: 2%;
+  height: 500px;
+}
+
+/* TABLET */
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+  h1 {
+    font-size: 2rem;
+    background-color: orange;
+  }
+
+  body {
+    height: 100vh;
+    font-size: 2rem;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+/* SMARTPHONE */
+@media screen and (max-width: 480px) {
+  body {
+    height: 100vh;
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=destino.css.map */
