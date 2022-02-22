@@ -1,5 +1,6 @@
 
 
+
 body {
     font-family: 'aller_lightregular',Arial,Helvetica,sans-serif;
     font-weight: 200;
@@ -8,26 +9,28 @@ body {
     background-color: ghostwhite;
     padding-left: 10%;
     padding-right: 10%;
-}
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-h1{
-    font-family: 'aller_lightregular',Arial,Helvetica,sans-serif;
-    color: #54301A;
-    font-size: 30px;
-}    
-
-h2{
-    color: #B3935D;
-    font-family: 'aller_lightregular',Arial,Helvetica,sans-serif;
-    font-weight: 200;
-    font-size: 20px;
+    *{
+        margin: 0;
+        padding: 0;
+    }
     
+    h1{
+        font-family: 'aller_lightregular',Arial,Helvetica,sans-serif;
+        color: #54301A;
+        font-size: 30px;
+    }    
+    
+    h2{
+        color: #B3935D;
+        font-family: 'aller_lightregular',Arial,Helvetica,sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+        
+    }
 }
+
+
 
 .cartaFlex {
     display: flex;
@@ -78,6 +81,44 @@ h2{
        }
        }
 
+// /* MAPS */
+// $sizeK:(
+//     h1: 4em,
+//     h2: 3em,
+//     h3: 2em,
+// );
 
-       
+// $h1: map-get($sizeK, h1);
+
+// h1 {
+//     font-size: $h1;
+// }
+
+// $colores: (
+//     primario: green
+//     secundario: orange
+// );
+
+// Lo dejo comentado para mostrar que lo se aplicar, pero 
+// no meinteresa realizar este cambio en mi proyecto
+
+/*MIXIN*/
+@mixin size ($anchura, $altura) {
+    width: $anchura;
+    height: $altura;
+}
+
+.caja-1 {
+    @include size (500px, 200px)
+}
+.caja-2 {
+    @include size (300px, 300px)
+}
+.caja-3 {
+    @include size (400px, 100px)
+}
+
+/*No agregue "EXTENDS" hice casi todo con bootstrap
+así que no hay mucho scss para agrupar, 
+me parece medio forzado*/
 

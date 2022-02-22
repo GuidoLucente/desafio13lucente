@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "aller_lightregular", Arial, Helvetica, sans-serif;
   font-weight: 200;
@@ -7,19 +8,16 @@ body {
   padding-left: 10%;
   padding-right: 10%;
 }
-
-* {
+body * {
   margin: 0;
   padding: 0;
 }
-
-h1 {
+body h1 {
   font-family: "aller_lightregular", Arial, Helvetica, sans-serif;
   color: #54301A;
   font-size: 30px;
 }
-
-h2 {
+body h2 {
   color: #B3935D;
   font-family: "aller_lightregular", Arial, Helvetica, sans-serif;
   font-weight: 200;
@@ -70,5 +68,24 @@ h2 {
     font-size: 1rem;
   }
 }
+/*MIXIN*/
+.caja-1 {
+  width: 500px;
+  height: 200px;
+}
+
+.caja-2 {
+  width: 300px;
+  height: 300px;
+}
+
+.caja-3 {
+  width: 400px;
+  height: 100px;
+}
+
+/*No agregue "EXTENDS" hice casi todo con bootstrap
+así que no hay mucho scss para agrupar, 
+me parece medio forzado*/
 
 /*# sourceMappingURL=destino.css.map */
