@@ -1,0 +1,114 @@
+@charset "UTF-8";
+body {
+  font-family: "aller_lightregular", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: #ACADAF;
+  background-color: ghostwhite;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+body * {
+  margin: 0;
+  padding: 0;
+}
+body h1 {
+  font-family: "aller_lightregular", Arial, Helvetica, sans-serif;
+  color: #54301A;
+  font-size: 30px;
+}
+body h2 {
+  color: #B3935D;
+  font-family: "aller_lightregular", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.imgflex {
+  display: flex;
+  width: auto;
+  margin-bottom: 2%;
+  max-height: 100%;
+}
+
+.cartaFlex {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  flex-direction: row;
+}
+
+#margin {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#margintop {
+  margin-top: 2%;
+}
+
+#marginbot {
+  margin-bottom: 2%;
+}
+
+/* TABLET */
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+  h1 {
+    font-size: 2rem;
+    background-color: orange;
+  }
+
+  body {
+    height: 100vh;
+    font-size: 2rem;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+/* SMARTPHONE */
+@media screen and (max-width: 480px) {
+  body {
+    height: 100vh;
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+/*MIXIN*/
+.caja-1 {
+  width: 500px;
+  height: 200px;
+}
+
+.caja-2 {
+  width: 300px;
+  height: 300px;
+}
+
+.caja-3 {
+  width: 400px;
+  height: 100px;
+}
+
+/*No agregue "EXTENDS" hice casi todo con bootstrap
+así que no hay mucho scss para agrupar, 
+me parece medio forzado*/
+
+/*# sourceMappingURL=destino.css.map */
